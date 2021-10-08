@@ -1,0 +1,110 @@
+body {
+    background-image: url(Maldives.jpg);
+    background-repeat: no-repeat;
+    color: white;    
+    background-size: cover;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-position: center center;
+}
+.menu {
+  display: block;
+  position: relative;
+  top: 30px;
+  left: 40px;
+  width: 33px;
+}
+.menu a span {
+  display: block;
+  width: 33px;
+  height: 2px;
+  margin-bottom: 10px;
+  position: relative;
+  background: white;
+  border-radius: 3px;
+  z-index: 1;
+}
+.logo {
+    float: left;
+    margin-left: 150px;
+    margin-top: -10px;
+}
+.logo img {
+    border-radius: 6px;
+}
+.search {
+    float: right;
+    margin-right: 65px;
+}
+.search i {
+    color: white;
+}
+.banner {
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px mediumorchid;
+}
+.banner h1 {
+    font-weight:bolder;
+}
+.banner p {
+    font-size: 22px;
+    font-weight: bold;
+}
+.conditions {
+        margin-top: 150px;
+        margin-bottom: 0px;
+        text-shadow: 1px 1px 2px mediumorchid;
+}
+.cell {
+    display: inline-block;
+    margin-left: 40px;
+    line-height: 0px;
+    text-align: center;
+}
+.included {
+    margin-left: 40px;
+    margin-top: -20px;
+    padding-top: 0px;
+}
+.included h5 {
+    font-style: italic;
+}
+.phone {
+    float: right;
+    
+   
+    
+    
+}
+form {
+    flex-wrap: nowrap;
+    margin-bottom: 60px;
+    margin-right: 65px;
+}
+
+input {
+    background-color:gainsboro;
+    border-radius: 15px;
+    height: 30px;
+    font-size: 22px;
+}
+::-webkit-input-placeholder { 
+    color: white;
+}
+button {
+    border-radius: 15px;
+    height: 35px;
+    background-color: orange;
+    font-size: 22px;
+    margin-left: -30px;
+    color: white;
+}
+button a {
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+    .logo {
+      display: none;
+    }
+}
